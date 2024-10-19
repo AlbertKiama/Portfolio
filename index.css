@@ -10,8 +10,55 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    background-color: var(--forth-color);
+}
+:root {
+    --first-color: #ffbf00;
+    --second-color: #bfcf33;
+    --third-color: #80df66;
+    --forth-color: #c0d7ec;
+    --fifth-color: #00ffcc;
+    --sixth-color: #0891b2;
+  }
 .name {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: bold;
+}
+.hello {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+.navMenu {
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+.nav-link::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: var(--sixth-color);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.home {
+    background-image: url("Images/Photo.png"); /* Specify the background image */
+    background-size: contain; /* Ensures the image covers the entire element */
+    background-position: calc(60% + 60px) center;/* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: local; /* Optional: fixes the background during scrolling */
+    height: 100vh; /* Optional: make the element full viewport height */
+      
 }
