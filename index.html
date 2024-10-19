@@ -8,47 +8,57 @@
     <link rel="stylesheet" href="index.css">
     <title>Albert Kiama</title>
 </head>
-<body class="flex flex-center">
-    <div class="header" id="navbar">
-        <div class="container">
-            <div class="nav">
-                <div class="logo">
-                    <a href="#home">
-                        <img src="Images/Profile.JPG" class="w-14 md:w-26 lg:w-40 rounded-full" alt="Logo">
-                    </a>
+<body class="md:container flex flex row md:mx-auto">
+    <section class="navMenu flex items-center basis-2/5 py-10">
+        <div class="header" id="navbar">
+                <div class="nav md:mx-auto flex flex-col justify-center items-center">
+                    <div class="Profile my-8 rounded-full border-2 border-cyan-600">
+                        <a href="#home">
+                            <img src="Images/Profile.JPG" class="w-14 md:w-26 lg:w-40 rounded-full" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="md:mx-auto mb-2 text-center">
+                        <h2 class="name text-3xl capitalize mb-2 antialiased">Albert Kiama</h2>
+                        <h3 class="bio text-sm tracking-tight uppercase font-light">Full-stack developer in Kenya</h3>
+                    </div>
+                    <ul class="nav-menu text-sm md:mx-auto my-8 flex flex-col items-center uppercase tracking-wider">
+                        <li class="nav-item mb-3">
+                            <a href="#home" class="nav-link hover:text-cyan-600">Home</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#about" class="nav-link hover:text-cyan-600">About</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#services" class="nav-link hover:text-cyan-600">Services</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#work" class="nav-link hover:text-cyan-600">Skills</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#work" class="nav-link hover:text-cyan-600">Education</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#work" class="nav-link hover:text-cyan-600">Experience</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#work" class="nav-link hover:text-cyan-600">Work</a></li>
+                        <li class="nav-item mb-3">
+                            <a href="#work" class="nav-link hover:text-cyan-600">Blog</a></li>
+                        <li class="nav-item mb-3"></li>
+                            <a href="#contacts" class="nav-link hover:text-cyan-600">Contacts</a></li>
+                    </ul>
+                    <div>
+                        <p class="text-sm font-light pt-4">© Copyright ©2024 All rights reserved <br> This template is made with by Astronet <br>
+                            Usage Images: postermywall.com</p>
+                    </div>
+            <!--======================hamburger==================-->
+    
+                    <div class="hamburger">
+                       <span class="bar"></span>
+                       <span class="bar"></span>
+                       <span class="bar"></span>
+                    </div>
                 </div>
-                <ul class="nav-menu flex flex-column">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav-link">Services</a></li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link">Skills</a></li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link">Education</a></li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link">Experience</a></li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link">Work</a></li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link">Blog</a></li>
-                    <li class="nav-item"></li>
-                        <a href="#contacts" class="nav-link">Contacts</a></li>
-                </ul>
-        <!--======================hamburger==================-->
-
-                <div class="hamburger">
-                   <span class="bar"></span>
-                   <span class="bar"></span>
-                   <span class="bar"></span>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="mainbody">
+    </section>
+    <section class="mainBody basis-3/5">
+        <div class="container">
 
-    </div>
+        </div>
+    </section>
 </body>
 </html>
