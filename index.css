@@ -26,11 +26,6 @@ body {
     font-weight: 700;
     font-style: bold;
 }
-.hello {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 900;
-    font-style: normal;
-}
 .header {
     height: 100vh;
     width: 25%;
@@ -57,7 +52,7 @@ body {
 .home {
     background-image: url("Images/Photo.png"); /* Specify the background image */
     background-size: contain; /* Ensures the image covers the entire element */
-    background-position: calc(70% + 60px) center;/* Centers the image */
+    background-position: calc(80% + 60px) center;/* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: local; /* Optional: fixes the background during scrolling */
     height: 100vh; /* Optional: make the element full viewport height */ 
@@ -73,4 +68,17 @@ body {
     background-color: #e1f1ff;
     padding: 40px 20px;
     border-radius: 6px;
+}
+.s-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-icons {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
 }
