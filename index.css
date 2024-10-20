@@ -60,8 +60,12 @@ body {
     background-position: calc(70% + 60px) center;/* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: local; /* Optional: fixes the background during scrolling */
-    height: 100vh; /* Optional: make the element full viewport height */    
+    height: 100vh; /* Optional: make the element full viewport height */ 
+    border-bottom: 1px solid #202020;   
 }
 .btn-1 {
     border: 1px solid #202020;
+}
+.sub-title {
+    font-family: "Cormorant Garamond", serif;
 }
