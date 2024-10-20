@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
     <link rel="stylesheet" href="index.css">
     <title>Albert Kiama</title>
@@ -57,25 +58,47 @@
         </div>
     </section>
     <section class="mainBody basis-3/4">
-        <div class="container">
-            <div class="home flex flex-col justify-center pl-16">
+        <div class="container px-16">
+            <div class="home flex flex-col justify-center">
                 <h1 class="hello text-7xl capitalize mb-6">Hi! <br> I'm Albert.</h1>
                 <h3 class="text-lg text-justify font-extralight leading-8">A versatile full-stack developer with expertise in both <br>
                      front-end and back-end technologies.<h3/>
                 <button type="button" class="btn-1 my-6 rounded px-6 py-3">Download CV</button>
             </div>
-            <div class="about">
-                <div class="title md:container pl-16 pb-10">
+            <div class="about pt-10">
+                <div class="title md:container pb-10">
                     <h2 class="text-sm uppercase font-light tracking-widest my-4">About Me</h2>
                     <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">Who am I?</h1>
                 </div>
-                <div class="about-text pl-16">
-                    <p class="text-base font-light tracking-wide pb-4">I'm highly skilled full-stack developer, proficient in both front-end and back-end technologies, with the ability to design, 
+                <div class="about-text pb-8">
+                    <p class="text-sm leading-6 font-light tracking-wide pb-4 text-justify">I'm highly skilled full-stack developer, proficient in both front-end and back-end technologies, with the ability to design, 
                         develop, and maintain web applications. With expertise in a wide range of programming languages, 
                         frameworks, and tools, I seamlessly bridge the gap between user experience and server-side functionality to deliver efficient, 
                         scalable solutions. </p>
-                    <p class="text-base font-light tracking-wide">Whether building responsive user interfaces or optimizing database queries, I'm dedicated to writing 
+                    <p class="text-sm leading-6 font-light tracking-wide text-justify">Whether building responsive user interfaces or optimizing database queries, I'm dedicated to writing 
                         clean, maintainable code and continuously improving processes.</p>
+                </div>
+                <div class="about-card grid grid-cols-4 gap-6 mb-20">
+                    <div class="card border-b-4 border-b-cyan-500">
+                        <i class="fa-regular fa-lightbulb text-cyan-500 text-2xl mb-3"></i>
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <div class="card border-b-4 border-b-rose-500">
+                        <i class="fa-solid fa-globe text-rose-500 text-2xl mb-3"></i>
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="card border-b-4 border-b-orange-500">
+                        <i class="fa-brands fa-react text-orange-500 text-2xl mb-3"></i>
+                        <h3>Software</h3>
+                    </div>
+                    <div class="card border-b-4 border-b-indigo-500">
+                        <i class="fa-solid fa-mobile-screen-button text-indigo-500 text-2xl mb-3"></i>
+                        <h3>Application</h3>
+                    </div>
+                </div>
+                <div class="about-hire bg-orange-500 px-10 py-12">
+                    <p class="hello text-3xl text-justify font-semibold leading-10">I am happy to know you that 300+ <br>projects done sucessfully!</p>
+                    <button type="button" class="btn-1 my-6 rounded px-4 py-1">Hire me!</button>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ body {
   }
 .name {
     font-family: "Cormorant Garamond", serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: bold;
 }
 .hello {
@@ -68,4 +68,9 @@ body {
 }
 .sub-title {
     font-family: "Cormorant Garamond", serif;
+}
+.card {
+    background-color: #e1f1ff;
+    padding: 40px 20px;
+    border-radius: 6px;
 }
