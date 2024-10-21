@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="Website Icon" href="Images/Profile.JPG" type="JPG" title="Icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
     <link rel="stylesheet" href="index.css">
@@ -59,13 +60,13 @@
     </section>
     <section class="mainBody basis-3/4">
         <div class="container px-16">
-            <div class="home flex flex-col justify-center">
+            <div class="home flex flex-col justify-center" id="home">
                 <h1 class="name text-7xl capitalize mb-6">Hi! <br> I'm Albert.</h1>
                 <h3 class="text-lg text-justify font-extralight leading-8">A versatile full-stack developer with expertise in both <br>
                      front-end and back-end technologies.<h3/>
                 <button type="button" class="btn-1 my-6 rounded px-6 py-3 hover:bg-stone-900 hover:text-slate-300 easier-in">Download CV</button>
             </div>
-            <div class="about my-20">
+            <div class="about my-20" id="about">
                 <div class="title md:container pb-10">
                     <h2 class="text-sm uppercase font-light tracking-widest my-4">About Me</h2>
                     <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">Who am I?</h1>
@@ -101,7 +102,7 @@
                     <button type="button" class="btn-1 mt-6 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">Hire me!</button>
                 </div>
             </div>
-            <div class="services my-20">
+            <div class="services my-20" id="services">
                 <div class="title md:container pb-10 mb-10">
                     <h2 class="text-sm uppercase font-light tracking-widest my-4">What I do</h2>
                     <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">Here are some of my expertise</h1>
@@ -139,7 +140,7 @@
                         <h3 class="text-base m-6 uppercase font-semibold tracking-widt">Transcription</h3>
                         <p class="text-sm leading-6 font-light tracking-wide text-center">Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
                         <div class="layer bg-rose-500">
-                            <i class="fa-solid fa-note-sticky text-slate-300 text-4xl p-7"></i>
+                            <i class="fa-solid fa-pencil text-slate-300 text-4xl p-7"></i>
                         </div>
                     </div>
                     <div class="s-card card border-b-2 border-b-fuchsia-800">
@@ -150,8 +151,29 @@
                         </div>
                     </div>
                 </div>
+                <div class="stats my-40">
+                    <div class="stats-container grid grid-cols-4 gap-6 text-slate-300">
+                        <div class="statistics">
+                            <span class="num" data-val="1253">0000</span>
+                            <h2>Cups of coffee</h2>
+                        </div>
+                        <div class="statistics">
+                            <span class="num" data-val="123">000</span>
+                            <h2>projects</h2>
+                        </div>
+                        <div class="statistics">
+                            <span class="num" data-val="53">00</span>
+                            <h2>Clients</h2>
+                        </div>
+                        <div class="statistics">
+                            <span class="num" data-val="25">00</span>
+                            <h2>Partner</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

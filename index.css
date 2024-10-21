@@ -83,3 +83,30 @@ body {
     position: absolute;
     top: -19%;
   }
+.stats {
+    background-image: url("Images/Bg-Comp.jpg"); /* Specify the background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center center;/* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Optional: fixes the background during scrolling */
+    height: 40vh;
+}
+.statistics {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .num {
+        font-size: 34px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        padding: 6px 0;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
