@@ -13,3 +13,15 @@ valueDisplays.forEach((valueDisplay) => {
         }
     }, duration);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all progress bars
+    const progressBars = document.querySelectorAll('.progress');
+  
+    // Loop through each progress bar and set its width based on data-progress attribute
+    progressBars.forEach(bar => {
+      const progressValue = bar.getAttribute('data-progress');
+      bar.style.width = progressValue + '%';
+    });
+  });
+  
