@@ -21,12 +21,12 @@
           }
       }
   }
-  .skill:nth-child(1) span { left: 70%; } /* jQuery - Red */
-  .skill:nth-child(2) span { left: 55%; } /* jQuery - Red */
-  .skill:nth-child(3) span { left: 80%; } /* HTML5 - Yellow */
-  .skill:nth-child(4) span { left: 85%; } /* CSS3 - Purple */
-  .skill:nth-child(5) span { left: 65%; } /* WordPress - Green */
-  .skill:nth-child(6) span { left: 75%; } /* SEO - Dark Blue */
+  .skill:nth-child(1) span { left: 70%; } /* jQuery - left span*/
+  .skill:nth-child(2) span { left: 55%; } /* jQuery - left span */
+  .skill:nth-child(3) span { left: 80%; } /* HTML5 - left span */
+  .skill:nth-child(4) span { left: 85%; } /* CSS3 - left span */
+  .skill:nth-child(5) span { left: 65%; } /* WordPress - left span*/
+  .skill:nth-child(6) span { left: 75%; } /* SEO - Dark left span */
   /* Specific percentage Colors */
   .skill:nth-child(2) .percentage { color: #e74c3c; } /* jQuery - Red */
   .skill:nth-child(3) .percentage { color: #f39c12; } /* HTML5 - Yellow */
