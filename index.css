@@ -112,4 +112,5 @@ body {
 }
 .active {
     color: var(--sixth-color); /* Chanrgb(58, 117, 83)reen when active */
+    font-size: 18px;
   }
