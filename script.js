@@ -24,4 +24,37 @@ document.addEventListener('DOMContentLoaded', function() {
       bar.style.width = progressValue + '%';
     });
   });
+
   
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all toggle buttons
+    const toggleButtons = document.querySelectorAll('.toggleButton');
+  
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const targetDivId = this.getAttribute('data-target');
+        const targetDiv = document.getElementById(targetDivId);
+        
+        // Hide all other divs
+        document.querySelectorAll('.hiddenDiv').forEach(div => {
+          if (div !== targetDiv) {
+            div.style.display = 'none';
+          }
+        });
+
+        // Remove the 'active' class from all buttons
+         toggleButtons.forEach(btn => {
+         btn.classList.remove('active');
+        });
+
+        // Toggle the clicked div's visibility
+        if (targetDiv.style.display === 'none' || targetDiv.style.display === '') {
+          targetDiv.style.display = 'block';
+          this.classList.add('active'); // Add 'active' class to the clicked button
+        } else {
+          targetDiv.style.display = 'none';
+          this.classList.remove('active'); // Remove 'active' class if div is hidden
+        }
+      });
+    });
+  });

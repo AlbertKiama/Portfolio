@@ -28,6 +28,7 @@
   .skill:nth-child(5) span { left: 65%; } /* WordPress - left span*/
   .skill:nth-child(6) span { left: 75%; } /* SEO - Dark left span */
   /* Specific percentage Colors */
+  .skill:nth-child(1) .percentage { color: #3498db; } /* photoshop - cyan */
   .skill:nth-child(2) .percentage { color: #e74c3c; } /* jQuery - Red */
   .skill:nth-child(3) .percentage { color: #f39c12; } /* HTML5 - Yellow */
   .skill:nth-child(4) .percentage { color: #9b59b6; } /* CSS3 - Purple */
