@@ -114,3 +114,17 @@ body {
     color: var(--sixth-color); /* Chanrgb(58, 117, 83)reen when active */
     font-size: 18px;
   }
+  .small-square {
+    width: 33px;
+    height: 33px;
+    display: inline-block;     /* Ensures it maintains square shape */
+    transform: rotate(45deg);
+    left: -.5%;
+    top: 4%;
+  }
+  .vertical-line {
+    width: 20px;               /* Width of the line */
+    height: inherit;             /* Height of the line */
+    background-color: #969595be; /* Color of the line */
+    margin: 0 3px;
+  }
