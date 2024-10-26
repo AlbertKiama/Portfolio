@@ -1,0 +1,46 @@
+
+:root {
+    --first-color: #ffbf00;
+    --second-color: #bfcf33;
+    --third-color: #80df66;
+    --forth-color: #bdc8d1;
+    --fifth-color: #00ffcc;
+    --sixth-color: #0891b2;
+  }
+
+.contact-form {
+    width: 100%;
+    .inputBox {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        input, textarea {
+            width: 100%;
+            padding: 16px;
+            font-size: 16px;
+            margin: 10px 0;
+            resize: vertical;
+            border: none;
+            &:focus ~ span,
+            &:valid ~ span {
+                color: var(--sixth-color);
+                font-size: 14px;
+                transform: translateY(-37px);
+            }
+        }
+        span {
+            position: absolute;
+            left: 0;
+            padding: 12px 0;
+            font-size: 14px;
+            margin: 16px;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #7e7e7e;
+        }
+        input[type="submit"] {
+            width: fit-content;
+            border: none;
+        }
+    }
+}

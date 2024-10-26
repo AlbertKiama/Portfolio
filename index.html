@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Albert Kiama</title>
 </head>
 <body class="md:container flex flex-row md:mx-auto">
@@ -42,7 +43,7 @@
                         <li class="nav-item mb-3 relative">
                             <a href="#work" class="nav-link">Work</a></li>
                         <li class="nav-item mb-3 relative">
-                            <a href="#blog" class="nav-link">Blog</a></li>
+                            <a href="#blogs" class="nav-link">Blog</a></li>
                         <li class="nav-item mb-3 relative">
                             <a href="#contacts" class="nav-link">Contacts</a></li>
                     </ul>
@@ -442,10 +443,108 @@
                         </div>
                     </div>
                 </div>
-                <div class="load bg-cyan-600 w-full p-2 items-center justify-center text-center cursor-pointer rounded">
-                    <a class="text-slate-100 text-sm font-light uppercase" href="">Load More
+                <div class="load bg-cyan-600 w-full p-4 items-center justify-center text-center cursor-pointer rounded">
+                    <a class="text-slate-100 text-xs font-light uppercase" href="">Load More
                         <i class="fa-solid fa-arrow-rotate-right"></i>
                     </a>
+                </div>
+            </div>
+            <div class="blogs" id="blogs">
+                <div class="title md:container py-10 my-8">
+                    <h2 class="text-sm uppercase font-light tracking-widest my-4">Read</h2>
+                    <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">Recent Blogs</h1>
+                </div>
+                <div class="blogs-container grid grid-cols-3 gap-6 mb-10">
+                    <div class="blog">
+                        <div class="blog-img mb-6 hover:">
+                            <img src="Images/Blog 01.jpg" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h6 class="text-slate-600 uppercase text-xs tracking-widest mb-3">April 14, 2018 | Web Design | <i class="fa-regular fa-comment"></i> 4</h6>
+                            <a class="uppercase font-normal text-lg tracking-wider hover:text-cyan-700 hover:underline" href="">
+                                Renovating National Gallery
+                            </a>
+                            <p class="text-sm text-slate-600 font-light tracking-wider mt-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blog-img mb-6">
+                            <img src="Images/Blog 02.jpg" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h6 class="text-slate-600 uppercase text-xs tracking-widest mb-3">April 14, 2018 | Web Design | <i class="fa-regular fa-comment"></i> 8</h6>
+                            <a class="uppercase font-normal text-lg tracking-wider hover:text-cyan-700 hover:underline" href="">
+                                Wordpress for a Beginner
+                            </a>
+                            <p class="text-sm text-slate-600 font-light tracking-wider mt-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blog-img mb-6">
+                            <img src="Images/Blog 03.jpg" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h6 class="text-slate-600 uppercase text-xs tracking-widest mb-3">April 14, 2018 | Web Design | <i class="fa-regular fa-comment"></i> 6</h6>
+                            <a class="uppercase font-normal text-lg tracking-wider hover:text-cyan-700 hover:underline" href="">
+                                Make website from scratch
+                            </a>
+                            <p class="text-sm text-slate-600 font-light tracking-wider mt-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="load bg-cyan-600 w-full p-3 items-center justify-center text-center cursor-pointer rounded">
+                    <a class="text-slate-100 text-xs font-light uppercase" href="">Load More
+                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contacts" id="contacts">
+                <div class="title md:container py-10 my-10">
+                    <h2 class="text-sm uppercase font-light tracking-widest my-4">Get in touch</h2>
+                    <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">Contact me</h1>
+                </div>
+                <div class="contact-container flex flex-row gap-20">
+                    <div class="contact-info">
+                        <div class="info flex flex-row mb-6 items-center">
+                            <i class="fa-brands fa-whatsapp p-6 text-xl text-rose-600 mr-6 bg-slate-200 rounded"></i>
+                            <p class="text-base text-stone-900 font-semibold tracking-wider">+254718448798</p>
+                        </div>
+                        <div class="info flex flex-row mb-6 items-center">
+                            <i class="fa-brands fa-x-twitter p-6 text-xl text-indigo-600 mr-6 bg-slate-200 rounded"></i>
+                            <p class="text-base text-stone-900 font-semibold tracking-wider">@CEO_Kiama</p>
+                        </div>
+                        <div class="info flex flex-row mb-6 items-center">
+                            <i class="fa-regular fa-envelope p-6 text-xl text-cyan-600 mr-6 bg-slate-200 rounded"></i>
+                            <p class="text-base text-stone-900 font-semibold tracking-wider">albertkiama99@outlook.com</p>
+                        </div>
+                        <div class="info flex flex-row mb-6 items-center">
+                            <i class="fa-solid fa-phone-volume p-6 text-xl text-lime-600 mr-6 bg-slate-200 rounded"></i>
+                            <p class="text-base text-stone-900 font-semibold tracking-wider">0718448798</p>
+                        </div>
+                    </div>
+                    <div class="contact-form pl-2">
+                        <form name="submit-to-google-sheet">
+                            <div class="inputBox">
+                                <input type="text" name="Name" required="required">
+                                <span>Full Names</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="email" name="Email" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="subject" required="required">
+                                <span>Subject</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea name="Message" required="required"></textarea>
+                                <span>Type your Message...</span>
+                            </div>
+                            <div class="inputBox text-slate-200">
+                                <input type="submit" value="Send Message" class="bg-cyan-600 hover:bg-cyan-800 rounded cursor-pointer text-base font-normal">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
