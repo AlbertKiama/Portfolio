@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
     --first-color: #ffbf00;
     --second-color: #bfcf33;
@@ -7,7 +7,10 @@
     --fifth-color: #00ffcc;
     --sixth-color: #0891b2;
   }
-
+.contact-info p {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
 .contact-form {
     width: 100%;
     .inputBox {
