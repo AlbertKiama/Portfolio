@@ -1,0 +1,17 @@
+
+.work-layer {
+    width: 100%;
+    backdrop-filter: blur(2px);
+    background-color: #2897b3a2;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    flex-direction: column;
+    opacity: 0;
+    overflow: hidden;
+}
+.work-layer:hover {
+    transition: all .7s ease-in-out;
+    opacity: 1;
+    overflow: hidden;
+}
