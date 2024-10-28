@@ -49,6 +49,8 @@ body {
     width: 100%;
 }
 
+
+
 .home {
     background-image: url("Images/Photo.png"); /* Specify the background image */
     background-size: contain; /* Ensures the image covers the entire element */
@@ -127,4 +129,10 @@ body {
     height: inherit;             /* Height of the line */
     background-color: #969595be; /* Color of the line */
     margin: 0 3px;
+  }
+
+  /*==========================Responsive side======================*/
+
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+
   }

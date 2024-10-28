@@ -7,10 +7,7 @@
     --fifth-color: #00ffcc;
     --sixth-color: #0891b2;
   }
-.contact-info p {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-}
+
 .contact-form {
     width: 100%;
     .inputBox {
@@ -44,6 +41,7 @@
         input[type="submit"] {
             width: fit-content;
             border: none;
+            padding: 12px;
         }
     }
 }
