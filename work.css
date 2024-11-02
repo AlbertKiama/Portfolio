@@ -28,7 +28,6 @@
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    margin: 3px;
     text-align: left;
     outline: none;
     border: 1px solid #33333359;
@@ -44,9 +43,10 @@
   .accordion:after {
     content: '\002B';
     color: #444;
-    font-weight: bold;
+    font-weight: normal;
     float: right;
     margin-left: 5px;
+    font-size: 20px;
   }
   
   .active:after {
@@ -56,10 +56,8 @@
   
   .panel {
     padding: 0 18px;
-    margin: 3px;
+    margin: 3px 0;
     max-height: 0;
-    outline: none;
-    border: 1px solid #3333335b;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
