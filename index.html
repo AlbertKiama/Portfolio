@@ -229,51 +229,36 @@
                     <h2 class="text-sm uppercase font-light tracking-widest my-4">education</h2>
                     <h1 class="sub-title text-xl uppercase font-semibold tracking-widest">education</h1>
                 </div>
-                <div class="education-container grid grid-cols-1 gap-y-1">
-                    <div class="myEdu flex flex-col">
-                        <div id="visibleDiv" class="flex flex-row justify-between items-center border-2 px-6 border-stone-400 bg-slate-200">
-                            <h3 class="text-base uppercase font-normal tracking-widest my-4">Certification in Full-stack Development</h3>
-                            <button class="toggleButton" data-target="hiddenDiv1"><i class="fa-regular fa-eye"></i></button>
-                        </div>
-                        <div id="hiddenDiv1" class="hiddenDiv hidden p-4 text-sm leading-6 font-light tracking-wide text-justify">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo consectetur saepe sequi pariatur necessitatibus 
-                                fugit error aspernatur natus nam delectus. Repudiandae suscipit amet nisi velit cumque, maxime quas voluptatem vel?</p>
-                                <button type="button" class="btn-1 mt-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
-                        </div>
-                    </div>
-                    <div class="myEdu flex flex-col">
-                        <div id="visibleDiv" class="flex flex-row justify-between items-center border-2 px-6 border-stone-400 bg-slate-200">
-                            <h3 class="text-base uppercase font-normal tracking-widest my-4">Bachelors Degree in Computer Science</h3>
-                            <button class="toggleButton" data-target="hiddenDiv2"><i class="fa-regular fa-eye"></i></button>
-                        </div>
-                        <div id="hiddenDiv2" class="hiddenDiv hidden p-4 text-sm leading-6 font-light tracking-wide text-justify">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo consectetur saepe sequi pariatur necessitatibus 
-                                fugit error aspernatur natus nam delectus. Repudiandae suscipit amet nisi velit cumque, maxime quas voluptatem vel?</p>
-                                <button type="button" class="btn-1 mt-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
-                        </div>
-                    </div>
-                    <div class="myEdu flex flex-col">
-                        <div id="visibleDiv" class="flex flex-row justify-between items-center border-2 px-6 border-stone-400 bg-slate-200">
-                            <h3 class="text-base uppercase font-normal tracking-widest my-4">High school Education</h3>
-                            <button class="toggleButton" data-target="hiddenDiv3"><i class="fa-regular fa-eye"></i></button>
-                        </div>
-                        <div id="hiddenDiv3" class="hiddenDiv hidden p-4 text-sm leading-6 font-light tracking-wide text-justify">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo consectetur saepe sequi pariatur necessitatibus 
-                                fugit error aspernatur natus nam delectus. Repudiandae suscipit amet nisi velit cumque, maxime quas voluptatem vel?</p>
-                                <button type="button" class="btn-1 mt-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
-                        </div>
-                    </div>
-                    <div class="myEdu flex flex-col">
-                        <div id="visibleDiv" class="flex flex-row justify-between items-center border-2 px-6 border-stone-400 bg-slate-200">
-                            <h3 class="text-base uppercase font-normal tracking-widest my-4">Elemetary School Education</h3>
-                            <button class="toggleButton" data-target="hiddenDiv4"><i class="fa-regular fa-eye"></i></button>
-                        </div>
-                        <div id="hiddenDiv4" class="hiddenDiv hidden p-4 text-sm leading-6 font-light tracking-wide text-justify">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo consectetur saepe sequi pariatur necessitatibus 
-                                fugit error aspernatur natus nam delectus. Repudiandae suscipit amet nisi velit cumque, maxime quas voluptatem vel?</p>
-                                <button type="button" class="btn-1 mt-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
-                        </div>
-                    </div>
+                <button class="accordion bg-slate-200 text-stone-800 text-base uppercase font-normal tracking-widest py-4">Certification in Full-stack Development</button>
+                <div class="panel bg-slate-200">
+                    <p class="py-4 text-sm leading-6 font-light tracking-wide text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button type="button" class="btn-1 mb-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
+                </div>
+
+                <button class="accordion bg-slate-200 text-stone-800 text-base uppercase font-normal tracking-widest py-4">Bachelors Degree in Computer Science</button>
+                <div class="panel bg-slate-200">
+                    <p class="py-4 text-sm leading-6 font-light tracking-wide text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button type="button" class="btn-1 mb-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
+                </div>
+
+                <button class="accordion bg-slate-200 text-stone-800 text-base uppercase font-normal tracking-widest py-4">High school Education</button>
+                <div class="panel bg-slate-200">
+                    <p class="py-4 text-sm leading-6 font-light tracking-wide text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button type="button" class="btn-1 mb-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
+                </div>
+
+                <button class="accordion bg-slate-200 text-stone-800 text-base uppercase font-normal tracking-widest py-4">Elemetary School Education</button>
+                <div class="panel bg-slate-200">
+                    <p class="py-4 text-sm leading-6 font-light tracking-wide text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button type="button" class="btn-1 mb-4 rounded px-4 py-1 uppercase font-light hover:bg-stone-900 hover:text-slate-300">View Certificate</button>
                 </div>
             </div>
             <div class="experience" id="experience">

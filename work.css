@@ -1,3 +1,11 @@
+:root {
+    --first-color: #ffbf00;
+    --second-color: #bfcf33;
+    --third-color: #80df66;
+    --forth-color: #bdc8d1;
+    --fifth-color: #00ffcc;
+    --sixth-color: #0891b2;
+  }
 
 .work-layer {
     width: 100%;
@@ -15,3 +23,43 @@
     opacity: 1;
     overflow: hidden;
 }
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    margin: 3px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #33333359;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: var(--sixth-color);
+    color: aliceblue;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #444;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+    color: aliceblue;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    margin: 3px;
+    max-height: 0;
+    outline: none;
+    border: 1px solid #3333335b;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
