@@ -48,7 +48,18 @@ body {
 .nav-link:hover::after {
     width: 100%;
 }
-
+.hamburger {
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+}
 
 
 .home {
@@ -129,10 +140,4 @@ body {
     height: inherit;             /* Height of the line */
     background-color: #969595be; /* Color of the line */
     margin: 0 3px;
-  }
-
-  /*==========================Responsive side======================*/
-
-  @media screen and (min-width: 768px) and (max-width: 1023px){
-
   }

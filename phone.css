@@ -1,0 +1,38 @@
+/*This is media querry for mobile devices.*/
+
+@media screen and (max-width: 767px) {
+
+    .nav {
+        position: relative;
+        right: -100%;
+        width: 60%;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    .nav.active {
+        right: 0;
+    }
+    .nav-item {
+        margin: 1rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    .bar {
+        width: 22px;
+        height: 3px;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
